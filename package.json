@@ -27,10 +27,8 @@
   "dependencies": {
     "babel-register": "^6.18.0",
     "cross-spawn": "^5.0.1",
-    "exit": "^0.1.2"
+    "exit": "^0.1.2",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.0"
   },
-  "devDependencies": {
-    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.0",
-    "babel-preset-env": "^1.6.0"
-  }
+  "devDependencies": {}
 }
