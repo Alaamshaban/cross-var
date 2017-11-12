@@ -1,5 +1,5 @@
 {
-  "name": "cross-var",
+  "name": "cross-var-no-babel",
   "version": "1.1.0",
   "description": "",
   "main": "index.js",
@@ -7,7 +7,10 @@
     "cross-var": "./index.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 0"
+    "test": "echo \"Error: no test specified\" && exit 0",
+    "cut-patch-release": "npm version patch && git push --follow-tags && npm publish",
+    "cut-minor-release": "npm version minor && git push --follow-tags && npm publish",
+    "cut-major-release": "npm version major && git push --follow-tags && npm publish"
   },
   "author": "Elijah Manor",
   "license": "MIT",
